@@ -60,6 +60,7 @@
 
 			font-family:Calibri;
 			align:center;
+			background-color: #bfbfbf;
 
 		}
 
@@ -105,14 +106,17 @@
 
 		}
 
-		article p {
-
-			display: inline-block;
-		}
-
 
 
 		footer {
 
 			background-color: #bfbfbf;
+		}
+
+
+		.showcase
+		 {
+			width: 100%;
+			min-height: 200px;
+			background: url(../public_html/images/justiceleague.jpg) no repeat;
 		}

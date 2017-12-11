@@ -1,3 +1,13 @@
+
+
+	*{
+
+		margin:0;
+		padding: 0;
+		border: 0;
+	}
+
+
 		nav  {
 
 
@@ -10,6 +20,7 @@
 						background-color: #f2eeea;
 						padding: 20px;
 						overflow: hidden;
+						font-weight:bold;
 
 
 		}
@@ -20,20 +31,24 @@
 
 		display: inline;
 		padding: 35px;
-
+		overflow:hidden;
 
 }
 
 		}
 
-		body {
+		html, body {
 			background-color: #cccccc;
 
 		}
 
-		.showcase {
+		.beginning {
+			background-size:contain;
 
-			background-image: url("../public_html/images/title.png");
+			min-height: 50px;
+			background-image: url("../images/title.png");
+			background-repeat: no-repeat;
+
 
 		}
 
@@ -80,10 +95,14 @@
 
 		footer {
 
-			position:500px;
+			width: 100%;
+			height:100%;
+			position:0px;
 			display: inline-block;
 			text-align: center;
 			list-style-type: none;
+			background: #bfbfbf;
+			padding: 30px;
 		}
 		footer li{
 
@@ -91,6 +110,7 @@
 			font-family: Tahoma;
 			font-size: 22px;
 			padding: 30px;
+			font-weight: bold;
 		}
 
 
@@ -137,13 +157,45 @@
 
 
 
+		.info {
 
 
-		.showcase
+			background-color: #f2eeea;
+			min-height: 100px;
+			width: 100%;
 
+
+
+		}
+
+		.info h2 {
+
+			text-align: center;
+			font-family: Tahoma;
+
+		}
+
+		h2 a {
+
+			text-decoration: none;
+			color: black;
+
+		}
+
+		.info a:hover{
+
+			background-color: #111;
+			color:white;
+		}
+
+		.banners
 
 		 {
+			background-size:contain;
+			min-height: 500px;
+			width: 100%;
+			background-image: url("../images/star_wars.jpg");
+			background-repeat: no-repeat ;
 
-			min-height: 400px;
-			background: url("..//images/justiceleague.jpg") no repeat 0 -400px;
+
 		}

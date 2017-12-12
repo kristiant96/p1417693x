@@ -8,17 +8,20 @@
 	}
 
 
+
+
 		nav  {
 
 
 
 
 				    width: 100%;
+						min-height: 50px;
 				    font-size: 30px;
 				    font-family: Tahoma;;
 				    text-align: center;
 						background-color: #f2eeea;
-						padding: 20px;
+						padding-top:10px;
 						overflow: hidden;
 						font-weight:bold;
 
@@ -86,7 +89,7 @@
 			background: #bfbfbf;
 			padding-top: 30px;
 			min-height: 70px;
-			border-bottom: black;
+
 
 		}
 
@@ -97,12 +100,11 @@
 
 			width: 100%;
 			height:100%;
-			position:0px;
-			display: inline-block;
 			text-align: center;
 			list-style-type: none;
 			background: #bfbfbf;
-			padding: 30px;
+			padding-bottom: 30px;
+
 		}
 		footer li{
 
@@ -117,10 +119,7 @@
 		footer a{
 			text-decoration: none;
 		}
-		title {
 
-			position:center;
-		}
 
 		p{
 
@@ -134,25 +133,7 @@
 			text-decoration:none;
 		}
 
-		 img {
 
-		   float:center;
-		   width: 100%;
-		   height: auto;
-
-
-		}
-
-
-
-
-		main img {
-
-			width:100%;
-			height:auto;
-
-
-		}
 
 
 
@@ -191,11 +172,20 @@
 		.banners
 
 		 {
-			background-size:contain;
+			background-size:cover;
 			min-height: 500px;
 			width: 100%;
 			background-image: url("../images/star_wars.jpg");
 			background-repeat: no-repeat ;
+			background-color: #bfbfbf;
 
 
 		}
+
+
+
+		@media only screen and (max-width: 500px) {
+    body {
+      background-color: red;
+    }
+}

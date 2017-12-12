@@ -26,6 +26,9 @@
 						font-weight:bold;
 
 
+
+
+
 		}
 
 
@@ -35,6 +38,7 @@
 		display: inline;
 		padding: 35px;
 		overflow:hidden;
+
 
 }
 
@@ -47,15 +51,22 @@
 
 		.beginning {
 			background-size:contain;
-
 			min-height: 50px;
 			background-image: url("../images/title.png");
 			background-repeat: no-repeat;
+			background-size: contain;
+			margin: 0 auto;
+			width: 400px;
 
 
 		}
 
+		.beginning a:hover {
 
+			color: black;
+
+
+		}
 
 
 		nav a {
@@ -66,16 +77,77 @@
 
 
 		nav a:hover {
-		    background-color: #111;
-				color:white;
-		}
-		ul {
 
-			list-style-type: none;
-		    margin: 0;
-		    padding: 0;
-				display: inline;
+
+
+        -moz-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+
+
 		}
+
+		.wrap {
+		  position: relative;
+		}
+
+		.slide {
+		  background-size: cover;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		}
+
+		.slide1 {
+		  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+		}
+		.slide2 {
+		  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+		}
+		.slide3 {
+		  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+		}
+
+		.slide-content {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		}
+
+		.slide-content span {
+		  font-size: 5rem;
+		  color: #fff;
+		}
+
+		.arrow {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  margin-top: -35px;
+		  width: 0;
+		  height: 0;
+		  border-style: solid;
+		}
+
+		#arrow-left {
+		  border-width: 30px 40px 30px 0;
+		  border-color: transparent #fff transparent transparent;
+		  left: 0;
+		  margin-left: 30px;
+		}
+
+		#arrow-right {
+		  border-width: 30px 0 30px 40px;
+		  border-color: transparent transparent transparent #fff;
+		  right: 0;
+		  margin-right: 30px;
+		}
+
+
+
+
+
 		h1 {
 			color:black;
 
@@ -85,7 +157,6 @@
 
 			width: 100%;
 			height:100%;
-			background:url("../images/title.png");
 			background: #bfbfbf;
 			padding-top: 30px;
 			min-height: 70px;
@@ -103,7 +174,7 @@
 			text-align: center;
 			list-style-type: none;
 			background: #bfbfbf;
-			padding-bottom: 30px;
+			min-height: 75px;
 
 		}
 		footer li{
@@ -119,22 +190,6 @@
 		footer a{
 			text-decoration: none;
 		}
-
-
-		p{
-
-			font-family:Calibri;
-
-		}
-
-
-		a{
-
-			text-decoration:none;
-		}
-
-
-
 
 
 
@@ -188,4 +243,12 @@
     body {
       background-color: red;
     }
+}
+
+
+
+#slider, .wrap, .slide-content {
+
+
+
 }

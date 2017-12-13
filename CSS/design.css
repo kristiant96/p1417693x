@@ -18,7 +18,7 @@
 				    width: 100%;
 						min-height: 50px;
 				    font-size: 30px;
-				    font-family: Tahoma;;
+				    font-family: Helvetica;
 				    text-align: center;
 						background-color: #f2eeea;
 						padding-top:10px;
@@ -37,7 +37,7 @@
 
 		display: inline;
 		padding: 35px;
-		overflow:hidden;
+
 
 
 }
@@ -66,6 +66,7 @@
 			color: black;
 
 
+
 		}
 
 
@@ -73,6 +74,9 @@
 			text-decoration: none;
 			color: black;
 			padding: 10px 10px 10px 10px;
+			-webkit-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+			box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
 		}
 
 
@@ -80,69 +84,12 @@
 
 
 
-        -moz-transform: rotateZ(-30deg);
-        -ms-transform: rotateZ(-30deg);
-        transform: rotateZ(-30deg);
+        -webkit-filter: brightness(10);
 
 
 		}
 
-		.wrap {
-		  position: relative;
-		}
 
-		.slide {
-		  background-size: cover;
-		  background-position: center;
-		  background-repeat: no-repeat;
-		}
-
-		.slide1 {
-		  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
-		}
-		.slide2 {
-		  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
-		}
-		.slide3 {
-		  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
-		}
-
-		.slide-content {
-		  display: flex;
-		  flex-direction: column;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-		}
-
-		.slide-content span {
-		  font-size: 5rem;
-		  color: #fff;
-		}
-
-		.arrow {
-		  cursor: pointer;
-		  position: absolute;
-		  top: 50%;
-		  margin-top: -35px;
-		  width: 0;
-		  height: 0;
-		  border-style: solid;
-		}
-
-		#arrow-left {
-		  border-width: 30px 40px 30px 0;
-		  border-color: transparent #fff transparent transparent;
-		  left: 0;
-		  margin-left: 30px;
-		}
-
-		#arrow-right {
-		  border-width: 30px 0 30px 40px;
-		  border-color: transparent transparent transparent #fff;
-		  right: 0;
-		  margin-right: 30px;
-		}
 
 
 
@@ -180,7 +127,7 @@
 		footer li{
 
 			display:inline;
-			font-family: Tahoma;
+			font-family: Helvetica;
 			font-size: 22px;
 			padding: 30px;
 			font-weight: bold;
@@ -207,7 +154,7 @@
 		.info h2 {
 
 			text-align: center;
-			font-family: Tahoma;
+			font-family: Helvetica;
 
 		}
 
@@ -220,8 +167,7 @@
 
 		.info a:hover{
 
-			background-color: #111;
-			color:white;
+			-webkit-filter: brightness(10);
 		}
 
 		.banners
@@ -238,17 +184,14 @@
 		}
 
 
+		.banners:hover{
+
+			-webkit-filter: blur(2px);
+		
+		}
 
 		@media only screen and (max-width: 500px) {
     body {
       background-color: red;
     }
-}
-
-
-
-#slider, .wrap, .slide-content {
-
-
-
 }

@@ -144,7 +144,7 @@
 			background-color: #f2eeea;
 			min-height: 100px;
 			width: 100%;
-			display:inline;
+			display: inline;
 			float: left;
 
 
@@ -182,12 +182,12 @@
 			background-size: contain;
 			width:22%;
 			min-height: 50px;
-			display: inline;
+
 			float: left;
 			padding:75px;
 			vertical-align: top;
 
-			cursor: pointer;
+			display: flex;
 
 		}
 
@@ -232,13 +232,24 @@
 			background-color: #f2eeea;
 			min-height: 100px;
 			width: 100%;
-			display:inline;
-			float: left;
-			text-align: center;
+			display:flex;
+
 			font-family: Tahoma,sans-serif;
+			text-align: center;
+			justify-content: space-between;
+
 
 
 		}
 
+		.review1 {
+			flex:1;
+			padding: 20px;
+			flex-basis: 30%;
+
+
+
+
+		}
 
 }

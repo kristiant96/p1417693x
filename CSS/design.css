@@ -477,39 +477,6 @@
 
 
 
-
-
-				.banner2
-
-				 {
-					background-size:cover;
-					min-height: 500px;
-					min-width: 100%;
-					background-image: url("../images/orient.jpg");
-					background-repeat: no-repeat ;
-					background-color: #bfbfbf;
-
-
-					transition: 5s ease;
-					backface-visibility: hidden;
-
-
-
-				}
-
-
-				.banner2:hover{
-
-
-				-webkit-filter: grayscale(100%);
-		    filter: grayscale(100%);
-
-
-
-
-				}
-
-
 				img {
   max-width: 100%;
   vertical-align: middle;
@@ -569,7 +536,6 @@
 .slider-nav {
   width: 100%;
   text-align: center;
-  margin: ;
 }
 
 .slider-nav__item {

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang ="en">
 <head>
+  <meta charset="utf-8">
 <title>MovieExperts</title>
 
   <link href="CSS/design.css" rel="stylesheet" type="text/css">
@@ -16,7 +17,7 @@
 
   <div class ="beginning">
     <a href="index.html">
-    <img src="images/title.png">
+    <img src="images/title.png" alt = "">
     </a>
 
     </div>
@@ -41,25 +42,41 @@
 
 
  <div id="map"></div>
- <div class = "contactinfo">
-   <h2> Lorem Ipsum </h2>
-   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+ <section class = "form">
+   <div class="container2">
+     <form>
+       <ul class="flex-outer">
+         <li>
+           <label for="first-name">First Name</label>
+           <input type="text" id="first-name" placeholder="Enter your first name here">
+         </li>
+         <li>
+           <label for="last-name">Last Name</label>
+           <input type="text" id="last-name" placeholder="Enter your last name here">
+         </li>
+         <li>
+           <label for="number">Phone No.</label>
+           <input type="number" id="email" placeholder="Enter your number here">
+         </li>
 
-   <h2> Lorem Ipsum </h2>
-   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-
-   <h2> Lorem Ipsum </h2>
-   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-
-
-
+         <li>
+           <label for="message">Message</label>
+           <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+         </li>
+         <li>
+           <button type="submit">Submit</button>
+         </li>
+       </ul>
+     </form>
+   </div>
 
 </main>
 
 <footer>
 	<ul>
 		<li><a href="">Site map</a></li>
-  <li><a href="Contact_Us">Contact Us</a></li>
+    <li><a href="Contact_Us.html">
+    Contact Us</a></li>
 </ul>
 
 </footer>

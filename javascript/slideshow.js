@@ -7,13 +7,13 @@
       let leics = {lat: 51.510805, lng: -0.129599};
       let mapDemo = document.getElementById("map");
 
-      // this sets the default location for when the map is first loaded
+
       let map = new google.maps.Map(mapDemo, {
         zoom: 12,
         center: london
       });
 
-      // these set different markers you want to show on your map
+
       let markerBIGBEN = new google.maps.Marker({
         position: bigben,
         map: map,

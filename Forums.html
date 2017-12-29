@@ -4,15 +4,17 @@
 <title>MovieExperts</title>
 
   <link href="CSS/design.css" rel="stylesheet" type="text/css">
-  <script src="main.js"></script>
+  <script src="javascript/slideshow.js"></script>
 </head>
 <body>
 <header>
 
   <div class ="beginning">
-    <a href="index.html"></a>
+    <a href="index.html">
+    <img src="images/title.png">
+    </a>
+
     </div>
-  </div>
 
 
 
@@ -29,25 +31,36 @@
 </nav>
 </section>
 <section class = "form">
-<form>
-  <label> Username:</label>
-  <input type="text" name="user-name" id="user-name" placeholder="at least 3 characters">
+  <div class="container">
+    <form>
+      <ul class="flex-outer">
+        <li>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Enter your first name here">
+        </li>
+        <li>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Enter your last name here">
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email here">
+        </li>
+
+        <li>
+          <label for="message">Message</label>
+          <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+        </li>
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+  </div>
 
 
-  <label> Topic:</label>
-  <input type="text" name="user-name" id="topic" placeholder="at least 3 characters">
 
 
-  <label> Genre:</label>
-  <input type="text" name="user-name" id="Genre" placeholder="at least 3 characters">
-
-
-  <label> Post review here!:</label>
-  <textarea>
-
-  </textarea>
-
-</form>
 
 </section>
 <footer>
